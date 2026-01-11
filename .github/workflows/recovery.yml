@@ -1,5 +1,7 @@
 name: RECOVERY
-
+steps:
+  - name: Checkout code
+    uses: actions/checkout@v4
 on:
   workflow_dispatch:
     inputs:
